@@ -215,7 +215,7 @@ body {
 }
 
 .benefits-item .list + .list {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .benefits-content {
@@ -499,17 +499,12 @@ color: var(--acon-color);
 .footer-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--title-color-white);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
-}
-
-.footer-social-link:hover .footer-icon,
-.footer-social-link:focus .footer-icon {
-fill: var(--title-color-white);
 }
 
 .footer-container {
